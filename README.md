@@ -8,3 +8,5 @@ Features:
 	• Various informations about the page
 	• Resizing Free or Predefined
 	• Validation of HTML Entities and many more
+
+![](https://raw.githubusercontent.com/GeraldAndinc/uDev-WebDeveloperToolbar/master/promo/Promo-1280x800-3.png "uDev")
