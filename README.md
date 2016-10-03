@@ -1,4 +1,4 @@
-# uDev
+# uDev - Web Developer Toolbar by GeraldAndinc
 
 Features:
 
