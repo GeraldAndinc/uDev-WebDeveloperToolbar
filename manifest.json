@@ -1,0 +1,53 @@
+{
+    "background": {
+        "page": "background/background.html"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "overlay/images/icon.png",
+            "38": "overlay/images/icon-2x.png"
+        },
+        "default_popup": "overlay/overlay.html",
+        "default_title": "__MSG_extensionName__"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "content/content.js"
+            ],
+            "matches": [
+                "\u003Call_urls>"
+            ]
+        }
+    ],
+    "default_locale": "en_US",
+    "description": "__MSG_extensionDescription__",
+    "icons": {
+        "128": "common/images/logos/128.png",
+        "16": "common/images/logos/16.png",
+        "48": "common/images/logos/48.png"
+    },
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "options_page": "options/options.html",
+    "permissions": [
+        "<all_urls>",
+        "clipboardWrite",
+        "contentSettings",
+        "cookies",
+        "history",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "webNavigation",
+        "idle",
+        "cookies",
+        "proxy",
+        "storage",
+        "unlimitedStorage"
+    ],
+    "version": "1.1.4.9",
+    "web_accessible_resources": [
+        "*"
+    ]
+}
